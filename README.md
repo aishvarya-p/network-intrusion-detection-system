@@ -25,6 +25,7 @@ The system implements a defense-in-depth **tri-engine detection architecture** c
 - [1. Project Overview](#1-project-overview)
 - [2. Problem Statement](#2-problem-statement)
 - [3. Key Features](#3-key-features)
+- [Screenshots](#screenshots)
 - [4. System Architecture](#4-system-architecture)
 - [5. Three Detection Layers](#5-three-detection-layers)
   - [Layer 1: Unsupervised Anomaly Detection (Isolation Forest)](#layer-1-unsupervised-anomaly-detection-isolation-forest)
@@ -78,6 +79,22 @@ NIDS reconciles these challenges by deploying three decoupled detection stages:
 - **High-Performance REST API**: Built with FastAPI, featuring Pydantic v2 data validation, structured error responses, and interactive OpenAPI (Swagger) documentation.
 - **Interactive React SOC Dashboard**: High-density analyst interface featuring 15-second telemetry polling, interactive SVG/Recharts visualizations, multi-criteria filtering, and modal detail inspection.
 - **Safe & Non-Invasive**: Runs in user space without kernel drivers, privileged network hooks, or packet sniffing libraries.
+
+---
+
+## Screenshots
+
+### SOC Dashboard
+![SOC Dashboard](docs/screenshots/dashboard.png)
+
+### Network Traffic Explorer
+![Network Traffic Explorer](docs/screenshots/traffic.png)
+
+### Security Alerts
+![Security Alerts](docs/screenshots/alerts.png)
+
+### CSV Flow Upload
+![CSV Flow Upload](docs/screenshots/csv-upload.png)
 
 ---
 
