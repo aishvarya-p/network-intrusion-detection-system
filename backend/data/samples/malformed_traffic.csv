@@ -1,0 +1,6 @@
+source_ip,destination_ip,source_port,destination_port,protocol,packet_count,byte_count,duration,tcp_flags
+192.168.1.101,10.0.0.10,51234,443,TCP,45,28400,2.15,ACK
+,,50000,80,TCP,1,64,0.1,SYN
+192.168.1.102,10.0.0.5,52341,NOT_A_PORT,UDP,2,148,0.02,NONE
+192.168.1.103,198.51.100.25,54120,80,INVALID_PROTOCOL,18,9200,0.85,ACK
+192.168.1.104,10.0.0.10,55000,80,TCP,20,12000,1.0,ACK
